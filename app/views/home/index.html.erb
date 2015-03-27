@@ -1,10 +1,10 @@
 
-  <div class="jumbotron center">
+  <div class="jumbotron centergit">
       
     <h1>Welcome to BookMarkForest</h1>
     <p>Let's make some bookmarks</p>
-    <button type="button" class="btn btn-default">Log in</button>
-    <button type="button" class="btn btn-primary">Sign up</button>
+    <%= link_to "Login", new_user_session_path, class: 'btn btn-default' %>
+    <%= link_to "Sign up", new_user_registration_path, class: 'btn btn-primary' %>
     
   </div>
   
